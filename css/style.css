@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weather-container {
+  background-color: #000000ab;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+  color: white;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0 35px;
+}
+
+.search input {
+  border: none;
+  background-color: #ccc;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 120%;
+  margin-right: 5px;
+  width: 100%;
+}
+
+.search button {
+  border-radius: 50%;
+  padding: 10px 15px;
+  border: none;
+  background-color: #ccc;
+}
+/*# sourceMappingURL=style.css.map */
